@@ -1,0 +1,75 @@
+#!/bin/bash
+
+
+source /opt/intel/openvino/bin/setupvars.sh
+
+printf "choice device 1=GPU 2=VPU \n"
+read device 
+# Choice device: GPU 
+if [ $device -eq 1 ]; then
+printf "choice demo \n"
+printf "1 = interactive_face_detection_demo \n"
+printf "2 = pedestrian_tracker_demo \n" 
+printf "3 = security_barrier_camera_demo \n"
+
+
+read model_name
+
+model_dir="/opt/sample_release/inference_engine_samples_build/intel64/Release"
+build_dir="/opt/sample_release/model"
+cd $model_dir
+
+
+if [ $model_name -eq 1 ]; then
+   printf  "interactive_face_detection_demo by GPU \n"
+   cd $model_dir
+   ./interactive_face_detection_demo -i ipcam -m $build_dir/face-detection-retail-0004/face-detection-retail-0004.xml -d GPU -m_ag $build_dir/age-gender-recognition-retail-0013/age-gender-recognition-retail-0013.xml -d_ag GPU -m_em $build_dir/emotions-recognition-retail-0003/emotions-recognition-retail-0003.xml -d_em GPU 
+
+
+elif [ $model_name -eq 2 ]; then
+
+   printf  "pedestrian_tracker_demo by GPU \n"
+   cd $model_dir
+   ./pedestrian_tracker_demo -i /opt/sample_release/Video/PexelsVideos1338590.mp4 -m_det $build_dir/person-detection-retail-0013/person-detection-retail-0013.xml -d_det GPU -m_reid $build_dir/person-reidentification-retail-0031/person-reidentification-retail-0031.xml -d_reid GPU
+
+elif [ $model_name -eq 3 ]; then
+   printf  "security_barrier_camera_demo by GPU \n"
+   cd $model_dir
+   ./security_barrier_camera_demo -i /opt/sample_release/picture/car_1.bmp -m $build_dir/vehicle-license-plate-detection-barrier-0106/vehicle-license-plate-detection-barrier-0106.xml -d GPU -m_va $build_dir/vehicle-attributes-recognition-barrier-0039/vehicle-attributes-recognition-barrier-0039.xml -d_va GPU -m_lpr $build_dir/license-plate-recognition-barrier-0001/license-plate-recognition-barrier-0001.xml -d_lpr GPU
+fi
+fi
+
+# Choice device: VPU 
+if [ $device -eq 2 ]; then
+printf "please execute vpu_init before use VPU (Only first need to execute vpu_init) \n\n"
+printf "choice demo \n"
+printf "1 = interactive_face_detection_demo \n"
+printf "2 = pedestrian_tracker_demo \n" 
+printf "3 = security_barrier_camera_demo \n"
+
+read model_name
+
+model_dir="/opt/sample_release/inference_engine_samples_build/intel64/Release"
+build_dir="/opt/sample_release/model"
+cd $model_dir
+
+
+if [ $model_name -eq 1 ]; then
+   printf  "interactive_face_detection_demo by VPU \n"
+   cd $model_dir
+   ./interactive_face_detection_demo -i ipcam -m $build_dir/face-detection-retail-0004-fp16/face-detection-retail-0004-fp16.xml -d MYRIAD -m_ag $build_dir/age-gender-recognition-retail-0013/age-gender-recognition-retail-0013.xml -d_ag GPU -m_em $build_dir/emotions-recognition-retail-0003/emotions-recognition-retail-0003.xml -d_em GPU  
+
+elif [ $model_name -eq 2 ]; then
+   printf  "pedestrian_tracker_demo by VPU \n"
+   cd $model_dir
+   ./pedestrian_tracker_demo -i /opt/sample_release/Video/PexelsVideos1338590.mp4 -m_det $build_dir/person-detection-retail-0013-fp16/person-detection-retail-0013-fp16.xml -d_det MYRIAD -m_reid $build_dir/person-reidentification-retail-0031/person-reidentification-retail-0031.xml -d_reid GPU
+
+
+elif [ $model_name -eq 3 ]; then
+   printf  "security_barrier_camera_demo by VPU \n"
+   cd $model_dir
+   ./security_barrier_camera_demo -i /opt/sample_release/picture/car_1.bmp -m $build_dir/vehicle-license-plate-detection-barrier-0106-fp16/vehicle-license-plate-detection-barrier-0106-fp16.xml -d MYRIAD -m_va $build_dir/vehicle-attributes-recognition-barrier-0039/vehicle-attributes-recognition-barrier-0039.xml -d_va GPU -m_lpr $build_dir/license-plate-recognition-barrier-0001/license-plate-recognition-barrier-0001.xml -d_lpr GPU
+fi
+fi
+
+
