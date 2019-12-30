@@ -1,6 +1,6 @@
 # [Athena-A1](https://www.asrockind.com/overview.tw.asp?Model=athena%20A1)  toolkits
 
-![image](https://github.com/Asrockind/picture/blob/master/181228053126100707-600x400-1.jpg) ![image](https://github.com/Asrockind/picture/blob/master/Screenshot%20from%202019-12-30%2001-38-35.png)
+![image](https://github.com/Asrockind/picture/blob/master/181228053126100707-600x400-1.jpg =50%x) ![image](https://github.com/Asrockind/picture/blob/master/Screenshot%20from%202019-12-30%2001-38-35.png =50%x)
 
 ## Introduction
 
