@@ -14,7 +14,7 @@ Athena have installed two Edge computing software SDK：[Intel OpenVINO Toolkit]
 Let me show athena A1 Kit spec：
 
 ![image](https://github.com/Asrockind/picture/blob/master/2.png) <br> 
-[From Asrockind](https://github.com/Asrockind/Athena-A1/blob/master/picture/Screenshot%20from%202019-12-25%2001-33-59.png)
+[From Asrockind](https://www.asrockind.com/overview.tw.asp?Model=athena%20A1)
 
 ## Description
 
