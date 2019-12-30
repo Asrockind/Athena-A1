@@ -2,11 +2,16 @@
 
 
 ## Introduction
-athena A1 Kit是[ASRock Industrial](https://www.asrockind.com/index.tw.asp)為Maker推出的邊緣運算AIoT開發套件，我們長年專注於工業電腦(Industrial Personal Computer，IPC)的產品開發，雖說athena A1 Kit是面向Maker與AIoT市場的AI套件，其系統規格與配置上毫不含糊，具備工業等級的主機板與各式豐富的介面與配件。
 
-不僅如此，它還預裝兩大邊緣運算的軟體SDK：[Intel OpenVINO Toolkit](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization)和AWS IoT Greengrass，提供開箱即用的AIoT開發板，不用繁複惱人的安裝過程，插電就有現成的AIoT系統，加上系統為x86 64bit CPU架構與Ubuntu OS豐富的應用程式，Maker可以如同在PC上開發應用程式一樣的輕鬆，直接透過athena A1 Kit實現AIoT相關應用。
+ASRock Industrial’s athena A1 Kit is an AI edge camera that supports Intel’s Movidus™ and [OpenVINO™ toolkits](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization) for sophisticated video and image analysis applications. It is more flexible operation without chassis design for Maker and software developer to implement recognition training models.
 
-讓我們來看看athena A1 Kit的整體系統規格：
+The athena A1 AI edge camera delivers 2MP resolution (1080p) with 30 fps,and a H.264 codec combining high definition footage and powerful video stream analysis capabilities.
+
+Support for AWS IoT Greengrass allows for the deployment of cloud enabled inference functionalities that create value-added solutions for use-cases in theft/crime prevention or consumer behavior analysis based on machine learning.
+
+Athena have installed two Edge computing software SDK：[Intel OpenVINO Toolkit](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization) and [AWS IoT Greengrass]https://aws.amazon.com/tw/greengrass/ ，Provide out-of-the-box AIoT development board,whithout tedious installation process. Plug-in has ready-made AIoT system. The system is x86 64bit CPU architecture and Ubuntu OS .  Through the applications with Athena A1 Kit maker can  develope application easily. 
+
+Let me show athena A1 Kit spec：
 
 ![image](https://github.com/Asrockind/picture/blob/master/2.png) <br> 
 [From Asrockind](https://github.com/Asrockind/Athena-A1/blob/master/picture/Screenshot%20from%202019-12-25%2001-33-59.png)
