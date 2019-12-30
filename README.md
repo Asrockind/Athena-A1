@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ASRock Industrial’s athena A1 Kit is an AI edge camera that supports Intel’s Movidus™ and [OpenVINO™ toolkits](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization) for sophisticated video and image analysis applications. It is more flexible operation without chassis design for Maker and software developer to implement recognition training models.
+[ASRock Industrial’s](https://www.asrockind.com/) athena A1 Kit is an AI edge camera that supports Intel’s Movidus™ and [OpenVINO™ toolkits](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization) for sophisticated video and image analysis applications. It is more flexible operation without chassis design for Maker and software developer to implement recognition training models.
 
 The athena A1 AI edge camera delivers 2MP resolution (1080p) with 30 fps,and a H.264 codec combining high definition footage and powerful video stream analysis capabilities.
 
