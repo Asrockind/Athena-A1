@@ -21,7 +21,7 @@ Let me show athena A1 Kit spec： <br>
 We provide some examples as below 
 You can follow [demo](https://github.com/Asrockind/Athena-A1/blob/master/demo) to command . <br>
 ### 1. Face detection 
-This demo showcases Object Detection task applied for face recognition using sequence of neural networks. It detect age, gender, emation.<br>
+This demo showcases Object Detection task applied for face recognition using sequence of neural networks. It detect age, gender, emation.<br><br>
 <img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/1.png"/> <br><br>
 
 ### 2. Pedestrian Tracker
