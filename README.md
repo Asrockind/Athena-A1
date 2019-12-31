@@ -21,7 +21,7 @@ Let me show athena A1 Kit spec： <br>
 We provide some examples as below 
 You can follow [demo](https://github.com/Asrockind/Athena-A1/blob/master/demo) to command . <br>
 ### 1. Face detection 
-<img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/1.png"/> <br>
+<img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/1.png"/> <br><br>
 
 
 ### 2. Pedestrian Tracker
@@ -29,7 +29,7 @@ You can follow [demo](https://github.com/Asrockind/Athena-A1/blob/master/demo) t
 <img width="=700" height="250" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker1.png"/> Before Inference <br>
 
 After Inference as below 
-<img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker5.png"/> 
+<img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker5.png"/> <br><br>
 
 
 ### 3. Segmentation_demo
