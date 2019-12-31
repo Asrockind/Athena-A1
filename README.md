@@ -32,7 +32,9 @@ After Inference as below
 
 ### 3. Segmentation demo
 This demo demonstrates how to run the Image Segmentation demo application, which does inference using image segmentation networks.<br>
-semantic-segmentation : This is a segmentation network to classify each pixel into 20 classes Road,sidewalk,building,wall,fence,pole,traffic light,traffic sign,vegetation,terrain,sky,person .... 
+road-segmentation     : This is a segmentation network to classify each pixel into four classes: BG, road, curb, mark.<br>
+semantic-segmentation : This is a segmentation network to classify each pixel into 20 classes Road,sidewalk,building,wall,fence,pole,traffic light,traffic sign,vegetation,terrain,sky,person .... etc<br>
+
 <br><br>
 <img width="=1100" height="750" src="https://github.com/Asrockind/picture/blob/master/segmentation1.png"/> <br><br>
 
