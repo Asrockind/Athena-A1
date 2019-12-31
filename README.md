@@ -20,7 +20,7 @@ Let me show athena A1 Kit spec： <br>
 
 We provide some examples as below 
 You can fllow [demo](https://github.com/Asrockind/Athena-A1/blob/master/demo) to command . 
-1. Face detection 
+###1. Face detection 
 <img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/1.png"/> 
 
-2. Pedestrian Tracker
+###2. Pedestrian Tracker
