@@ -30,7 +30,7 @@ This demo showcases Pedestrian Tracking scenario: it reads frames from an input 
 After Inference as below 
 <img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker5.png"/> <br><br>
 
-### 3. Segmentation_demo
+### 3. Segmentation demo
 This demo demonstrates how to run the Image Segmentation demo application, which does inference using image segmentation networks. <br><br>
 <img width="=1100" height="750" src="https://github.com/Asrockind/picture/blob/master/segmentation1.png"/> <br><br>
 
