@@ -1,6 +1,6 @@
 # [Athena-A1](https://www.asrockind.com/overview.tw.asp?Model=athena%20A1)  toolkits
 
-<img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/1.png"/>  
+ 
                                                                       
 
 ## Introduction
@@ -20,20 +20,8 @@ Let me show athena A1 Kit spec： <br>
 
 ## Description
 
-athena A1 Kit系統內已預裝Intel OpenVINO SDK與Demo範例  <br>
-包含 interactive_face_detection_demo , pedestrian_tracker_demo ,security_barrier_camera_demo <br>
+We provide some examples as below
 
-啟動 terminal 到 sample_release 資料夾 <br>
-
- ` cd / ` <br>
- ` cd /opt/sample_release ` <br>
- 
- 啟動 demo <br>
-  ` ./demo ` <br>
- 
-會要求選用 GPU 或 VPU , 選完後需選擇執行哪個 demo , 我們選用 GPU 和 face_detection <br>
-![image](https://github.com/Asrockind/picture/blob/master/Screenshot%20from%202019-12-25%2001-33-59.png) <br>
-
-執行完透過 IP CAM 便會有影像出來判斷年齡性別及表情
-
+1. Face detection 
+<img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/1.png"/> 
 
