@@ -32,5 +32,5 @@ After Inference as below
 
 ### 3. Segmentation_demo
 This demo demonstrates how to run the Image Segmentation demo application, which does inference using image segmentation networks.
-
+<img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/segmentation1.png"/> <br><br>
 
