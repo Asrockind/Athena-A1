@@ -1,7 +1,5 @@
 # [Athena-A1](https://www.asrockind.com/overview.tw.asp?Model=athena%20A1)  toolkits
 
-![image](https://github.com/Asrockind/picture/blob/master/3.png) 
-                                                                      
 
 ## Introduction
 
@@ -14,7 +12,7 @@ Support for AWS IoT Greengrass allows for the deployment of cloud enabled infere
 Athena have installed two Edge computing software SDK：[Intel OpenVINO Toolkit](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization) and [AWS IoT Greengrass](https://aws.amazon.com/tw/greengrass/).Provide out-of-the-box AIoT development board,whithout tedious installation process. Plug-in has ready-made AIoT system. The system is x86 64bit CPU architecture and Ubuntu OS .  Through the applications with Athena A1 Kit maker can  develope application easily. 
 
 Let me show athena A1 Kit spec： <br> 
- ![image](https://github.com/Asrockind/picture/blob/master/2.png)   ![image](https://github.com/Asrockind/picture/blob/master/athenaA1_2.png) <br> 
+ ![image](https://github.com/Asrockind/picture/blob/master/4.png)   ![image](https://github.com/Asrockind/picture/blob/master/athenaA1_2.png) <br> 
 
 [From Asrockind](https://www.asrockind.com/overview.tw.asp?Model=athena%20A1)
 
