@@ -23,7 +23,6 @@ You can follow [demo](https://github.com/Asrockind/Athena-A1/blob/master/demo) t
 ### 1. Face detection 
 <img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/1.png"/> <br><br>
 
-
 ### 2. Pedestrian Tracker
 
 <img width="=700" height="250" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker1.png"/> Before Inference <br>
@@ -31,6 +30,7 @@ You can follow [demo](https://github.com/Asrockind/Athena-A1/blob/master/demo) t
 After Inference as below 
 <img width="=900" height="350" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker5.png"/> <br><br>
 
-
 ### 3. Segmentation_demo
+
+
 
