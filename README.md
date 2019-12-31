@@ -26,4 +26,4 @@ You can fllow [demo](https://github.com/Asrockind/Athena-A1/blob/master/demo) to
 ### 2. Pedestrian Tracker
 
 <img width="=700" height="250" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker1.png"/> 
-
+<img width="=700" height="250" src="https://github.com/Asrockind/picture/blob/master/pedestrian_tracker4.png"/> 
