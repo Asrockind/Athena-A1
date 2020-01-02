@@ -41,3 +41,5 @@ Semantic-segmentation : This is a segmentation network to classify each pixel in
 
 ### 4. Security_barrier_camera_demo
 This demo showcases Vehicle and License Plate Detection network followed by the Vehicle Attributes Recognition and License Plate Recognition networks applied on top of the detection results.
+<br><br>
+<img width="=1100" height="750" src="https://github.com/Asrockind/picture/blob/master/security_berrier1.png"/> <br><br>
