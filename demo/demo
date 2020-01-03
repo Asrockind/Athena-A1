@@ -23,7 +23,7 @@ cd $model_dir
 if [ $model_name -eq 1 ]; then
    printf  "interactive_face_detection_demo by GPU \n"
    cd $model_dir
-   ./interactive_face_detection_demo -i -i ipcam -m $build_dir/face_detection/face-detection-retail-0004/face-detection-retail-0004.xml -d GPU -m_ag $build_dir/face_detection/age-gender-recognition-retail-0013/age-gender-recognition-retail-0013.xml -d_ag GPU -m_em $build_dir/face_detection/emotions-recognition-retail-0003/emotions-recognition-retail-0003.xml -d_em GPU 
+   ./interactive_face_detection_demo -i ipcam -m $build_dir/face_detection/face-detection-retail-0004/face-detection-retail-0004.xml -d GPU -m_ag $build_dir/face_detection/age-gender-recognition-retail-0013/age-gender-recognition-retail-0013.xml -d_ag GPU -m_em $build_dir/face_detection/emotions-recognition-retail-0003/emotions-recognition-retail-0003.xml -d_em GPU 
 
 
 elif [ $model_name -eq 2 ]; then
