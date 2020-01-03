@@ -22,3 +22,5 @@ Run ./interactive_face_detection_demo  <br>
 
 `./interactive_face_detection_demo -i ipcam -m PATH/face_detection/face-detection-retail-0004/face-detection-retail-0004.xml -d GPU -m_ag PATH/face_detection/age-gender-recognition-retail-0013/age-gender-recognition-retail-0013.xml -d_ag GPU -m_em PATH/face_detection/emotions-recognition-retail-0003/emotions-recognition-retail-0003.xml -d_em GPU `
 
+Other demo command was similar to interactive_face_detection_demo .
+
