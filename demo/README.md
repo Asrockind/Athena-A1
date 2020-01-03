@@ -11,5 +11,14 @@ init the environment <br>
 go to the exe file <br>
 `cd /Your_path/Athena-A1/intel64/Release`
 
-./interactive_face_detection_demo -i ipcam -m $build_dir/face_detection/face-detection-retail-0004/face-detection-retail-0004.xml -d GPU -m_ag $build_dir/face_detection/age-gender-recognition-retail-0013/age-gender-recognition-retail-0013.xml -d_ag GPU -m_em $build_dir/face_detection/emotions-recognition-retail-0003/emotions-recognition-retail-0003.xml -d_em GPU 
+Run ./interactive_face_detection_demo  <br>
+-i : output from ipcam <br>
+-m : input face-detection-retail-0004 IR file <br>
+-d : deploy device on CPU , GPU  MYRIAD(VPU) <br>
+-m_ag : input age-gender-recognition-retail-0013 IR file <br>
+-d_ag : deploy device on CPU , GPU  MYRIAD(VPU) <br>
+-m_em : input emotions-recognition-retail-0003 IR file <br>
+-d_em : deploy device on CPU , GPU  MYRIAD(VPU) <br>
+
+`./interactive_face_detection_demo -i ipcam -m PATH/face_detection/face-detection-retail-0004/face-detection-retail-0004.xml -d GPU -m_ag PATH/face_detection/age-gender-recognition-retail-0013/age-gender-recognition-retail-0013.xml -d_ag GPU -m_em PATH/face_detection/emotions-recognition-retail-0003/emotions-recognition-retail-0003.xml -d_em GPU `
 
