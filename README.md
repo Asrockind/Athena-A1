@@ -14,7 +14,7 @@ Let me show athena A1 Kit spec： <br>
  ![image](https://github.com/Asrockind/picture/blob/master/4.png)   ![image](https://github.com/Asrockind/picture/blob/master/athenaA1_2.png) <br> 
 
 [From Asrockind](https://www.asrockind.com/overview.tw.asp?Model=athena%20A1)
-## Install
+## Image File
 The Athena-A1 system is default Ubuntu : 16.04 ,Openvino version :2019.1.144 . If you want to recover your system . You can download [image](https://drive.google.com/open?id=1trYd7I2uw6-VCvOnAYGnKYbe1JjqVDJD) to ghost to your athena-A1 . 
 
 ## Description
