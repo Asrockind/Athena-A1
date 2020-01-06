@@ -22,8 +22,8 @@ Use root  <br>
 Ghost to the Athena A1  <br>
 `gzip -dc /imagefile_path/backupV008_customer.img.gz | dd of=/dev/mmcblk1` <br>
 if it down you can see the information as below : <br>
-`xxxxxx+0 record in
- xxxxxx+0 record out
+`xxxxxx+0 record in<br>
+ xxxxxx+0 record out<br>
  xxxxxxxxxx bytes (XXGB, XXGB) copied , xxxx s,21.0 MB/s` <br>
  it mean tje ghost was finish and need to restart the system <br>
  
