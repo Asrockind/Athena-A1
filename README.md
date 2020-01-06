@@ -18,10 +18,15 @@ Let me show athena A1 Kit spec： <br>
 The Athena-A1 system is default Ubuntu : 16.04 ,Openvino version :2019.1.144 . If you want to recover your system . You can download [image](https://drive.google.com/open?id=1trYd7I2uw6-VCvOnAYGnKYbe1JjqVDJD) to ghost to your athena-A1 . <br> 
 Download the image file to your HDD or SSD. You have to use USB or other device to boot to Ubuntu. Open terminal and command as below:<br> 
 Use root  <br>
-`sudo su`
+`sudo su` <br>
 Ghost to the Athena A1  <br>
-`gzip -dc /imagefile_path/backupV008_customer.img.gz | dd of=/dev/mmcblk1`
-
+`gzip -dc /imagefile_path/backupV008_customer.img.gz | dd of=/dev/mmcblk1` <br>
+if it down you can see the information as below : <br>
+`xxxxxx+0 record in
+ xxxxxx+0 record out
+ xxxxxxxxxx bytes (XXGB, XXGB) copied , xxxx s,21.0 MB/s` <br>
+ it mean tje ghost was finish and need to restart the system <br>
+ 
 ## Description
 
 We provide some examples as below 
