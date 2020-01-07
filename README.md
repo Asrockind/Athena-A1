@@ -8,7 +8,9 @@ The athena A1 AI edge camera delivers 2MP resolution (1080p) with 30 fps,and a H
 
 Support for AWS IoT Greengrass allows for the deployment of cloud enabled inference functionalities that create value-added solutions for use-cases in theft/crime prevention or consumer behavior analysis based on machine learning.
 
-Athena have installed two Edge computing software SDK：[Intel OpenVINO Toolkit](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization) and [AWS IoT Greengrass](https://aws.amazon.com/tw/greengrass/).Provide out-of-the-box AIoT development board,whithout tedious installation process. Plug-in has ready-made AIoT system. The system is x86 64bit CPU architecture and Ubuntu OS .  Through the applications with Athena A1 Kit maker can  develope application easily. 
+Athena have installed two Edge computing software SDK：[Intel OpenVINO Toolkit](https://software.intel.com/en-us/openvino-toolkit)(Open Visual Inferencing and Neural Network Optimization) and [AWS IoT Greengrass](https://aws.amazon.com/tw/greengrass/).Provide out-of-the-box AIoT development board,whithout tedious installation process. Plug-in has ready-made AIoT system. The system is x86 64bit CPU architecture and Ubuntu OS .  Through the applications with Athena A1 Kit maker can develope application easily. 
+
+You can watch the [vedio](https://youtu.be/u5mgDqoLPvg) to assemble the athena-A1
 
 Let me show athena A1 Kit spec： <br> 
  ![image](https://github.com/Asrockind/picture/blob/master/4.png)   ![image](https://github.com/Asrockind/picture/blob/master/athenaA1_2.png) <br> 
