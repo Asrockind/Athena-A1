@@ -14,6 +14,9 @@ Let me show athena A1 Kit spec： <br>
  ![image](https://github.com/Asrockind/picture/blob/master/4.png)   ![image](https://github.com/Asrockind/picture/blob/master/athenaA1_2.png) <br> 
 
 [From Asrockind](https://www.asrockind.com/overview.tw.asp?Model=athena%20A1)
+
+## [Neural Compute Stick 2](https://software.intel.com/en-us/neural-compute-stick)
+
 ## Image File
 The Athena-A1 system is default Ubuntu : 16.04 ,Openvino version :2019.1.144 . If you want to recover your system . You can download [image](https://drive.google.com/open?id=1trYd7I2uw6-VCvOnAYGnKYbe1JjqVDJD) to ghost to your athena-A1 . <br> 
 Download the image file to your HDD or SSD. You have to use USB or other device to boot to Ubuntu. Open terminal and command as below:<br>  <br> 
